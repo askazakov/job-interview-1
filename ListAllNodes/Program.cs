@@ -4,15 +4,15 @@ using System.Linq;
 
 namespace ListAllNodes
 {
-    class TreeNode
+    public class TreeNode
     {
         public int Value;
         public IEnumerable<TreeNode> Children { get; set; }
     }
 
-    class Program
+    public class Program
     {
-        static IEnumerable<TreeNode> GetAllNodes(TreeNode node)
+        public static IEnumerable<TreeNode> GetAllNodes(TreeNode node)
         {
             var stack = new Stack<TreeNode>();
             foreach (var child in node.Children)
