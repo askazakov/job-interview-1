@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAllNodes", "ListAllNode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAllNodesTests", "ListAllNodesTests\ListAllNodesTests.csproj", "{180CCCD7-435C-4091-98C2-EDE5CD2B314C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAllNodesNunitTests", "ListAllNodesNunitTests\ListAllNodesNunitTests.csproj", "{924DE036-FEFF-451D-9419-99783900699F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{180CCCD7-435C-4091-98C2-EDE5CD2B314C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{180CCCD7-435C-4091-98C2-EDE5CD2B314C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{180CCCD7-435C-4091-98C2-EDE5CD2B314C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924DE036-FEFF-451D-9419-99783900699F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924DE036-FEFF-451D-9419-99783900699F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924DE036-FEFF-451D-9419-99783900699F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924DE036-FEFF-451D-9419-99783900699F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
