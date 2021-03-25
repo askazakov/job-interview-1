@@ -12,7 +12,7 @@ namespace ListAllNodesNunitTests
             var childA = new TreeNode();
             var childB = new TreeNode();
             root.Children = new[] {childA, childB};
-            Assert.AreEqual(new[] {root, childB, childA}, Program.GetAllNodes(root));
+            Assert.AreEqual(new[] {root, childB, childA}, StackyRecursive.GetAllNodes(root));
         }
     }
 }

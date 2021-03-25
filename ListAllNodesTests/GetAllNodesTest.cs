@@ -13,7 +13,7 @@ namespace ListAllNodesTests
             var childA = new TreeNode();
             var childB = new TreeNode();
             root.Children = new[] {childA, childB};
-            var actual = Program.GetAllNodes(root);
+            var actual = StackyRecursive.GetAllNodes(root);
             Assert.Equal(actual.ToArray(), new[] {root, childB, childA});
         }
     }

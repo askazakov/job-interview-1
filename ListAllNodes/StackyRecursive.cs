@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace ListAllNodes
@@ -9,7 +8,7 @@ namespace ListAllNodes
         public IEnumerable<TreeNode> Children { get; set; }
     }
 
-    public class Program
+    public static class StackyRecursive
     {
         public static IEnumerable<TreeNode> GetAllNodes(TreeNode node)
         {
@@ -41,11 +40,6 @@ namespace ListAllNodes
             }
 
             return Aux(stack, result);
-        }
-
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello");
         }
     }
 }
