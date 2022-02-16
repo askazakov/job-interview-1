@@ -23,7 +23,7 @@ namespace ListAllNodes
 
         private static IEnumerable<TreeNode> Aux(Stack<TreeNode> stack, List<TreeNode> result)
         {
-            if (!stack.Any())
+            if (stack.Count == 0)
             {
                 return result;
             }
